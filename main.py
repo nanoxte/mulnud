@@ -212,7 +212,7 @@ async def get_token(user_id: int, bot_username: str) -> str:
 
 def shorten_url_link(url):
     api_url = 'https://clickspay.in/api'
-    api_key = 'bbcbd18b768b0a22ba0081b567af29d51b45f2aa'
+    api_key = '638cd7434b5637771a7142b4acf8ecc98f9d6005'
     params = {
         'api': api_key,
         'url': url
